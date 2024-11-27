@@ -10,7 +10,7 @@ function $(id) {
         url = "https://" + url;
       } else
 
-        url = "https://duckduckgo.com/search?q=" + encodeURIComponent(url);
+        url = "https://google.com/search?q=" + encodeURIComponent(url);
     }
     window.location = location.protocol + '//' + location.host + '/proxy/' + url;
     return false;
