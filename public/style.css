@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+  
+  body {
+    font-family: 'Figtree', arial, serif;
+  }
+
+  h1 {
+    font-family: 'Figtree', arial, serif;
+  }
+
+  body {
+    background-color: #161616;
+    color: white;
+    text-align: center;
+  }
+
+  .container {
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+  }
+
+  .main {
+    margin: auto;
+    width: 75%;
+    margin-top: 50%;
+  }
+
+  
+  .container {
+    width: 760px;
+    text-align: left;
+    max-width: calc(100% - 10px);
+  }
+
+
+  input[type=text] {
+    width: 60%;
+    outline: none;
+    color: #969696;
+    margin-right: none;
+    background-color: #161616;
+    border: 1px solid #ffffff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 10px;
+    font-family: "Figtree";
+    max-width: calc(100% - 8em);
+    transition: all 350ms;
+    cursor: text;
+  }
+
+  input[type=text]:hover {
+    background-color: #1d1d1d;
+    color: rgb(255, 255, 255);
+  }
+
+  .submit {
+    width: 20%;
+    margin-left: none;
+    outline: none;
+    color: azure;
+    background-color: #1d1d1d;
+    border: 1px solid #ffffff;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 10px;
+    font-family: "Figtree";
+    transition: all 350ms;
+    cursor: pointer;
+  }
+
+  .submit:hover {
+    background-color: #333333;
+  }
+
+  p {
+    color: #969696;
+  }
+
+  a {
+    color: #62BECB;
+  }
+
+  a:hover {
+    color: #82DEEB
+  }
+
+
+  
+  #error {
+    display: none;
+    border: 1px solid white;
+    background: rgb(31, 31, 31);
+    padding: 5px 10px;
+    margin: 30px 10px;
+  }
